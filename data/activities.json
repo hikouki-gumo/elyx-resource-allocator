@@ -1,0 +1,4246 @@
+[
+  {
+    "id": "act-zone-2-cardio-easy",
+    "name": "Zone-2 cardio — easy",
+    "type": "fitness",
+    "pillar": "Movement",
+    "priority": 15,
+    "frequency": {
+      "times": 2,
+      "period": "week"
+    },
+    "details": "Keep HR in Zone 2 (60–70% HRmax), nose-breathing pace, fasted",
+    "facilitator": {
+      "role": "trainer",
+      "id": "res-trainer"
+    },
+    "location": "res-gym",
+    "remote_capable": true,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [
+      "act-indoor-cycling",
+      "act-rowing-intervals"
+    ],
+    "skip_adjustment": "shift to the next open day; keep 48h between hard sessions",
+    "metrics": [
+      "avg HR",
+      "distance"
+    ],
+    "circadian": {
+      "window": "morning",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "low",
+      "score": 3
+    },
+    "min_gap_hours": 24,
+    "duration_min": 45,
+    "travel_behavior": "remote",
+    "all_day": false
+  },
+  {
+    "id": "act-zone-2-cardio-moderate",
+    "name": "Zone-2 cardio — moderate",
+    "type": "fitness",
+    "pillar": "Movement",
+    "priority": 11,
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "details": "Upper Zone 2 (~70% HRmax), steady continuous effort",
+    "facilitator": {
+      "role": "trainer",
+      "id": "res-trainer"
+    },
+    "location": "res-gym",
+    "remote_capable": true,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [
+      "act-indoor-cycling"
+    ],
+    "skip_adjustment": "shift to the next open day; keep 48h between hard sessions",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "morning",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "moderate",
+      "score": 5
+    },
+    "min_gap_hours": 24,
+    "duration_min": 50,
+    "travel_behavior": "remote",
+    "all_day": false
+  },
+  {
+    "id": "act-long-zone-2-ride",
+    "name": "Long Zone-2 ride",
+    "type": "fitness",
+    "pillar": "Movement",
+    "priority": 13,
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "details": "Long aerobic ride in Zone 2; fuel 40–60g carbs/hr",
+    "facilitator": {
+      "role": "self",
+      "id": null
+    },
+    "location": "res-outdoors",
+    "remote_capable": false,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [
+      "act-treadmill-incline-walk"
+    ],
+    "skip_adjustment": "shift to the next open day; keep 48h between hard sessions",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "morning",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "moderate",
+      "score": 6
+    },
+    "min_gap_hours": 24,
+    "duration_min": 75,
+    "travel_behavior": "backup",
+    "all_day": false
+  },
+  {
+    "id": "act-vo2max-intervals",
+    "name": "VO2max intervals",
+    "type": "fitness",
+    "pillar": "Movement",
+    "priority": 8,
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "details": "4×4 min @ 90–95% HRmax, 3 min easy recovery between",
+    "facilitator": {
+      "role": "trainer",
+      "id": "res-trainer"
+    },
+    "location": "res-gym",
+    "remote_capable": false,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [
+      "act-bodyweight-hiit"
+    ],
+    "skip_adjustment": "shift to the next open day; keep 48h between hard sessions",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "morning",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "high",
+      "score": 9
+    },
+    "min_gap_hours": 48,
+    "duration_min": 40,
+    "travel_behavior": "backup",
+    "all_day": false
+  },
+  {
+    "id": "act-strength-full-body",
+    "name": "Strength — full body",
+    "type": "fitness",
+    "pillar": "Movement",
+    "priority": 9,
+    "frequency": {
+      "times": 2,
+      "period": "week"
+    },
+    "details": "Compound lifts, 3–4 sets @ RPE 8, full rest between sets",
+    "facilitator": {
+      "role": "trainer",
+      "id": "res-trainer"
+    },
+    "location": "res-gym",
+    "remote_capable": false,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [
+      "act-bodyweight-circuit"
+    ],
+    "skip_adjustment": "shift to the next open day; keep 48h between hard sessions",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "evening",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "high",
+      "score": 8
+    },
+    "min_gap_hours": 48,
+    "duration_min": 60,
+    "travel_behavior": "backup",
+    "all_day": false
+  },
+  {
+    "id": "act-strength-push",
+    "name": "Strength — push",
+    "type": "fitness",
+    "pillar": "Movement",
+    "priority": 20,
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "details": "Bench, overhead press, dips — 4 sets @ RPE 8",
+    "facilitator": {
+      "role": "trainer",
+      "id": "res-trainer"
+    },
+    "location": "res-gym",
+    "remote_capable": false,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [
+      "act-bodyweight-circuit"
+    ],
+    "skip_adjustment": "shift to the next open day; keep 48h between hard sessions",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "evening",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "high",
+      "score": 8
+    },
+    "min_gap_hours": 48,
+    "duration_min": 55,
+    "travel_behavior": "backup",
+    "all_day": false
+  },
+  {
+    "id": "act-strength-pull",
+    "name": "Strength — pull",
+    "type": "fitness",
+    "pillar": "Movement",
+    "priority": 20,
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "details": "Rows, pull-ups, hinge — 4 sets @ RPE 8",
+    "facilitator": {
+      "role": "trainer",
+      "id": "res-trainer"
+    },
+    "location": "res-gym",
+    "remote_capable": false,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [
+      "act-bodyweight-circuit"
+    ],
+    "skip_adjustment": "shift to the next open day; keep 48h between hard sessions",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "evening",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "high",
+      "score": 8
+    },
+    "min_gap_hours": 48,
+    "duration_min": 55,
+    "travel_behavior": "backup",
+    "all_day": false
+  },
+  {
+    "id": "act-strength-legs",
+    "name": "Strength — legs",
+    "type": "fitness",
+    "pillar": "Movement",
+    "priority": 10,
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "details": "Squat + deadlift focus, 3–4 sets @ RPE 8–9",
+    "facilitator": {
+      "role": "trainer",
+      "id": "res-trainer"
+    },
+    "location": "res-gym",
+    "remote_capable": false,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [
+      "act-bodyweight-circuit"
+    ],
+    "skip_adjustment": "shift to the next open day; keep 48h between hard sessions",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "evening",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "high",
+      "score": 9
+    },
+    "min_gap_hours": 48,
+    "duration_min": 55,
+    "travel_behavior": "backup",
+    "all_day": false
+  },
+  {
+    "id": "act-bodyweight-circuit",
+    "name": "Bodyweight circuit",
+    "type": "fitness",
+    "pillar": "Movement",
+    "priority": 20,
+    "frequency": {
+      "times": 1,
+      "period": "month"
+    },
+    "details": "Hotel circuit: push-ups, squats, lunges, plank × 3 rounds",
+    "facilitator": {
+      "role": "self",
+      "id": null
+    },
+    "location": "res-home",
+    "remote_capable": true,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "shift to the next open day; keep 48h between hard sessions",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "morning",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "moderate",
+      "score": 5
+    },
+    "min_gap_hours": 24,
+    "duration_min": 30,
+    "travel_behavior": "continue",
+    "all_day": false
+  },
+  {
+    "id": "act-mobility-flow",
+    "name": "Mobility flow",
+    "type": "fitness",
+    "pillar": "Movement",
+    "priority": 16,
+    "frequency": {
+      "times": 3,
+      "period": "week"
+    },
+    "details": "Hips, T-spine and ankles; controlled 20-min flow",
+    "facilitator": {
+      "role": "self",
+      "id": null
+    },
+    "location": "res-home",
+    "remote_capable": true,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "shift to the next open day; keep 48h between hard sessions",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "morning",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "low",
+      "score": 2
+    },
+    "min_gap_hours": 24,
+    "duration_min": 20,
+    "travel_behavior": "continue",
+    "all_day": false
+  },
+  {
+    "id": "act-eye-exercises",
+    "name": "Eye exercises",
+    "type": "fitness",
+    "pillar": "Movement",
+    "priority": 22,
+    "frequency": {
+      "times": 3,
+      "period": "week"
+    },
+    "details": "Near/far focus shifts + eye-muscle drills to ease screen strain",
+    "facilitator": {
+      "role": "self",
+      "id": null
+    },
+    "location": "res-home",
+    "remote_capable": true,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "shift to the next open day; keep 48h between hard sessions",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "midday",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "low",
+      "score": 1
+    },
+    "min_gap_hours": 24,
+    "duration_min": 10,
+    "travel_behavior": "continue",
+    "all_day": false
+  },
+  {
+    "id": "act-tempo-run",
+    "name": "Tempo run",
+    "type": "fitness",
+    "pillar": "Movement",
+    "priority": 20,
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "details": "20 min @ threshold (~85% HRmax), 10 min warm-up/down",
+    "facilitator": {
+      "role": "coach",
+      "id": "res-coach"
+    },
+    "location": "res-track",
+    "remote_capable": false,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [
+      "act-treadmill-tempo"
+    ],
+    "skip_adjustment": "shift to the next open day; keep 48h between hard sessions",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "morning",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "high",
+      "score": 8
+    },
+    "min_gap_hours": 48,
+    "duration_min": 40,
+    "travel_behavior": "backup",
+    "all_day": false
+  },
+  {
+    "id": "act-rowing-intervals",
+    "name": "Rowing intervals",
+    "type": "fitness",
+    "pillar": "Movement",
+    "priority": 20,
+    "frequency": {
+      "times": 1,
+      "period": "month"
+    },
+    "details": "6×500m @ 2k pace + 5, 90s easy between",
+    "facilitator": {
+      "role": "trainer",
+      "id": "res-trainer"
+    },
+    "location": "res-gym",
+    "remote_capable": false,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "shift to the next open day; keep 48h between hard sessions",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "morning",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "moderate",
+      "score": 6
+    },
+    "min_gap_hours": 24,
+    "duration_min": 30,
+    "travel_behavior": "backup",
+    "all_day": false
+  },
+  {
+    "id": "act-indoor-cycling",
+    "name": "Indoor cycling",
+    "type": "fitness",
+    "pillar": "Movement",
+    "priority": 20,
+    "frequency": {
+      "times": 1,
+      "period": "month"
+    },
+    "details": "Steady Zone 2 on the turbo trainer",
+    "facilitator": {
+      "role": "self",
+      "id": null
+    },
+    "location": "res-home",
+    "remote_capable": true,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "shift to the next open day; keep 48h between hard sessions",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "morning",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "moderate",
+      "score": 5
+    },
+    "min_gap_hours": 24,
+    "duration_min": 45,
+    "travel_behavior": "continue",
+    "all_day": false
+  },
+  {
+    "id": "act-swim-technique",
+    "name": "Swim technique",
+    "type": "fitness",
+    "pillar": "Movement",
+    "priority": 20,
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "details": "Drill-focused freestyle, easy aerobic",
+    "facilitator": {
+      "role": "coach",
+      "id": "res-coach"
+    },
+    "location": "res-pool",
+    "remote_capable": false,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "shift to the next open day; keep 48h between hard sessions",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "morning",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "moderate",
+      "score": 5
+    },
+    "min_gap_hours": 24,
+    "duration_min": 45,
+    "travel_behavior": "skip",
+    "all_day": false
+  },
+  {
+    "id": "act-hike",
+    "name": "Hike",
+    "type": "fitness",
+    "pillar": "Movement",
+    "priority": 20,
+    "frequency": {
+      "times": 1,
+      "period": "month"
+    },
+    "details": "Zone 2 hike on rolling terrain; bring water + snack",
+    "facilitator": {
+      "role": "self",
+      "id": null
+    },
+    "location": "res-outdoors",
+    "remote_capable": false,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "shift to the next open day; keep 48h between hard sessions",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "morning",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "moderate",
+      "score": 6
+    },
+    "min_gap_hours": 24,
+    "duration_min": 120,
+    "travel_behavior": "continue",
+    "all_day": false
+  },
+  {
+    "id": "act-core-stability",
+    "name": "Core stability",
+    "type": "fitness",
+    "pillar": "Movement",
+    "priority": 20,
+    "frequency": {
+      "times": 2,
+      "period": "week"
+    },
+    "details": "Anti-rotation + bracing: planks, dead bugs, Pallof",
+    "facilitator": {
+      "role": "self",
+      "id": null
+    },
+    "location": "res-home",
+    "remote_capable": true,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "shift to the next open day; keep 48h between hard sessions",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "evening",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "low",
+      "score": 3
+    },
+    "min_gap_hours": 24,
+    "duration_min": 15,
+    "travel_behavior": "continue",
+    "all_day": false
+  },
+  {
+    "id": "act-balance-training",
+    "name": "Balance training",
+    "type": "fitness",
+    "pillar": "Movement",
+    "priority": 20,
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "details": "Single-leg balance + proprioception drills",
+    "facilitator": {
+      "role": "physio",
+      "id": "res-physio"
+    },
+    "location": "res-clinic",
+    "remote_capable": true,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "shift to the next open day; keep 48h between hard sessions",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "evening",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "low",
+      "score": 2
+    },
+    "min_gap_hours": 24,
+    "duration_min": 20,
+    "travel_behavior": "remote",
+    "all_day": false
+  },
+  {
+    "id": "act-treadmill-incline-walk",
+    "name": "Treadmill incline walk",
+    "type": "fitness",
+    "pillar": "Movement",
+    "priority": 20,
+    "frequency": {
+      "times": 1,
+      "period": "month"
+    },
+    "details": "12% incline, 5 km/h — Zone 2 walking",
+    "facilitator": {
+      "role": "self",
+      "id": null
+    },
+    "location": "res-home",
+    "remote_capable": true,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "shift to the next open day; keep 48h between hard sessions",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "midday",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "low",
+      "score": 3
+    },
+    "min_gap_hours": 24,
+    "duration_min": 40,
+    "travel_behavior": "continue",
+    "all_day": false
+  },
+  {
+    "id": "act-treadmill-tempo",
+    "name": "Treadmill tempo",
+    "type": "fitness",
+    "pillar": "Movement",
+    "priority": 20,
+    "frequency": {
+      "times": 1,
+      "period": "month"
+    },
+    "details": "Threshold pace blocks, ~85% HRmax",
+    "facilitator": {
+      "role": "self",
+      "id": null
+    },
+    "location": "res-gym",
+    "remote_capable": false,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "shift to the next open day; keep 48h between hard sessions",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "morning",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "high",
+      "score": 8
+    },
+    "min_gap_hours": 48,
+    "duration_min": 35,
+    "travel_behavior": "backup",
+    "all_day": false
+  },
+  {
+    "id": "act-bodyweight-hiit",
+    "name": "Bodyweight HIIT",
+    "type": "fitness",
+    "pillar": "Movement",
+    "priority": 20,
+    "frequency": {
+      "times": 1,
+      "period": "month"
+    },
+    "details": "30s on / 30s off × 16: burpees, squat jumps, mountain climbers",
+    "facilitator": {
+      "role": "self",
+      "id": null
+    },
+    "location": "res-home",
+    "remote_capable": true,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "shift to the next open day; keep 48h between hard sessions",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "morning",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "high",
+      "score": 9
+    },
+    "min_gap_hours": 48,
+    "duration_min": 25,
+    "travel_behavior": "continue",
+    "all_day": false
+  },
+  {
+    "id": "act-posture-drills",
+    "name": "Posture drills",
+    "type": "fitness",
+    "pillar": "Movement",
+    "priority": 20,
+    "frequency": {
+      "times": 2,
+      "period": "week"
+    },
+    "details": "Scapular + thoracic resets to offset desk posture",
+    "facilitator": {
+      "role": "physio",
+      "id": "res-physio"
+    },
+    "location": "res-clinic",
+    "remote_capable": true,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "shift to the next open day; keep 48h between hard sessions",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "midday",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "low",
+      "score": 1
+    },
+    "min_gap_hours": 24,
+    "duration_min": 10,
+    "travel_behavior": "remote",
+    "all_day": false
+  },
+  {
+    "id": "act-grip-strength-work",
+    "name": "Grip strength work",
+    "type": "fitness",
+    "pillar": "Movement",
+    "priority": 20,
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "details": "Dead hangs + farmer holds — longevity marker",
+    "facilitator": {
+      "role": "self",
+      "id": null
+    },
+    "location": "res-home",
+    "remote_capable": true,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "shift to the next open day; keep 48h between hard sessions",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "evening",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "low",
+      "score": 3
+    },
+    "min_gap_hours": 24,
+    "duration_min": 10,
+    "travel_behavior": "continue",
+    "all_day": false
+  },
+  {
+    "id": "act-sprint-intervals",
+    "name": "Sprint intervals",
+    "type": "fitness",
+    "pillar": "Movement",
+    "priority": 20,
+    "frequency": {
+      "times": 1,
+      "period": "month"
+    },
+    "details": "8×80m @ ~95% effort, full walk-back recovery",
+    "facilitator": {
+      "role": "coach",
+      "id": "res-coach"
+    },
+    "location": "res-track",
+    "remote_capable": false,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "shift to the next open day; keep 48h between hard sessions",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "morning",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "high",
+      "score": 9
+    },
+    "min_gap_hours": 48,
+    "duration_min": 30,
+    "travel_behavior": "skip",
+    "all_day": false
+  },
+  {
+    "id": "act-yoga",
+    "name": "Yoga",
+    "type": "fitness",
+    "pillar": "Movement",
+    "priority": 20,
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "details": "Vinyasa flow for mobility + parasympathetic wind-down",
+    "facilitator": {
+      "role": "self",
+      "id": null
+    },
+    "location": "res-home",
+    "remote_capable": true,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "shift to the next open day; keep 48h between hard sessions",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "evening",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "low",
+      "score": 2
+    },
+    "min_gap_hours": 24,
+    "duration_min": 40,
+    "travel_behavior": "continue",
+    "all_day": false
+  },
+  {
+    "id": "act-pilates",
+    "name": "Pilates",
+    "type": "fitness",
+    "pillar": "Movement",
+    "priority": 20,
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "details": "Mat Pilates — core control and stability",
+    "facilitator": {
+      "role": "coach",
+      "id": "res-coach"
+    },
+    "location": "res-clinic",
+    "remote_capable": false,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "shift to the next open day; keep 48h between hard sessions",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "midday",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "moderate",
+      "score": 4
+    },
+    "min_gap_hours": 24,
+    "duration_min": 45,
+    "travel_behavior": "remote",
+    "all_day": false
+  },
+  {
+    "id": "act-kettlebell-complex",
+    "name": "Kettlebell complex",
+    "type": "fitness",
+    "pillar": "Movement",
+    "priority": 20,
+    "frequency": {
+      "times": 1,
+      "period": "month"
+    },
+    "details": "Clean–press–squat flow, 5 rounds, moderate load",
+    "facilitator": {
+      "role": "trainer",
+      "id": "res-trainer"
+    },
+    "location": "res-gym",
+    "remote_capable": false,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "shift to the next open day; keep 48h between hard sessions",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "evening",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "high",
+      "score": 7
+    },
+    "min_gap_hours": 48,
+    "duration_min": 30,
+    "travel_behavior": "backup",
+    "all_day": false
+  },
+  {
+    "id": "act-loaded-carries",
+    "name": "Loaded carries",
+    "type": "fitness",
+    "pillar": "Movement",
+    "priority": 20,
+    "frequency": {
+      "times": 1,
+      "period": "month"
+    },
+    "details": "Farmer + suitcase carries, 4 × 40m heavy",
+    "facilitator": {
+      "role": "trainer",
+      "id": "res-trainer"
+    },
+    "location": "res-gym",
+    "remote_capable": false,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "shift to the next open day; keep 48h between hard sessions",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "evening",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "moderate",
+      "score": 6
+    },
+    "min_gap_hours": 24,
+    "duration_min": 20,
+    "travel_behavior": "backup",
+    "all_day": false
+  },
+  {
+    "id": "act-sled-pushes",
+    "name": "Sled pushes",
+    "type": "fitness",
+    "pillar": "Movement",
+    "priority": 20,
+    "frequency": {
+      "times": 1,
+      "period": "month"
+    },
+    "details": "10 × 20m pushes, heavy, full recovery",
+    "facilitator": {
+      "role": "trainer",
+      "id": "res-trainer"
+    },
+    "location": "res-gym",
+    "remote_capable": false,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "shift to the next open day; keep 48h between hard sessions",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "evening",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "high",
+      "score": 8
+    },
+    "min_gap_hours": 48,
+    "duration_min": 20,
+    "travel_behavior": "backup",
+    "all_day": false
+  },
+  {
+    "id": "act-foam-rolling",
+    "name": "Foam rolling",
+    "type": "fitness",
+    "pillar": "Movement",
+    "priority": 20,
+    "frequency": {
+      "times": 3,
+      "period": "week"
+    },
+    "details": "Quads, glutes, calves, T-spine — 60s each",
+    "facilitator": {
+      "role": "self",
+      "id": null
+    },
+    "location": "res-home",
+    "remote_capable": true,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "shift to the next open day; keep 48h between hard sessions",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "before_bed",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "low",
+      "score": 1
+    },
+    "min_gap_hours": 24,
+    "duration_min": 10,
+    "travel_behavior": "continue",
+    "all_day": false
+  },
+  {
+    "id": "act-stretch-routine",
+    "name": "Stretch routine",
+    "type": "fitness",
+    "pillar": "Movement",
+    "priority": 20,
+    "frequency": {
+      "times": 2,
+      "period": "week"
+    },
+    "details": "Static holds 45s for hips, hamstrings, chest",
+    "facilitator": {
+      "role": "self",
+      "id": null
+    },
+    "location": "res-home",
+    "remote_capable": true,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "shift to the next open day; keep 48h between hard sessions",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "before_bed",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "low",
+      "score": 1
+    },
+    "min_gap_hours": 24,
+    "duration_min": 15,
+    "travel_behavior": "continue",
+    "all_day": false
+  },
+  {
+    "id": "act-breath-paced-walk",
+    "name": "Breath-paced walk",
+    "type": "fitness",
+    "pillar": "Movement",
+    "priority": 20,
+    "frequency": {
+      "times": 2,
+      "period": "week"
+    },
+    "details": "Easy walk, nasal breathing, post-lunch glucose dip",
+    "facilitator": {
+      "role": "self",
+      "id": null
+    },
+    "location": "res-outdoors",
+    "remote_capable": true,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "shift to the next open day; keep 48h between hard sessions",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "midday",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "low",
+      "score": 2
+    },
+    "min_gap_hours": 24,
+    "duration_min": 25,
+    "travel_behavior": "continue",
+    "all_day": false
+  },
+  {
+    "id": "act-protein-forward-breakfast",
+    "name": "Protein-forward breakfast",
+    "type": "food",
+    "pillar": "Nutrition",
+    "priority": 20,
+    "frequency": {
+      "times": 1,
+      "period": "day"
+    },
+    "details": "≥30 g protein within 1h of waking",
+    "facilitator": {
+      "role": "self",
+      "id": null
+    },
+    "location": "res-home",
+    "remote_capable": false,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "resume at the next meal — don't double up",
+    "metrics": [
+      "protein g"
+    ],
+    "circadian": {
+      "window": "morning",
+      "meal_relation": "with_food"
+    },
+    "load": {
+      "intensity": "none",
+      "score": 0
+    },
+    "min_gap_hours": 24,
+    "duration_min": 20,
+    "travel_behavior": "continue",
+    "all_day": false
+  },
+  {
+    "id": "act-protein-forward-lunch",
+    "name": "Protein-forward lunch",
+    "type": "food",
+    "pillar": "Nutrition",
+    "priority": 20,
+    "frequency": {
+      "times": 1,
+      "period": "day"
+    },
+    "details": "~40 g protein + fibrous veg, lower-GI carbs",
+    "facilitator": {
+      "role": "self",
+      "id": null
+    },
+    "location": "res-home",
+    "remote_capable": false,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "resume at the next meal — don't double up",
+    "metrics": [
+      "protein g"
+    ],
+    "circadian": {
+      "window": "midday",
+      "meal_relation": "with_food"
+    },
+    "load": {
+      "intensity": "none",
+      "score": 0
+    },
+    "min_gap_hours": 24,
+    "duration_min": 30,
+    "travel_behavior": "continue",
+    "all_day": false
+  },
+  {
+    "id": "act-protein-forward-dinner",
+    "name": "Protein-forward dinner",
+    "type": "food",
+    "pillar": "Nutrition",
+    "priority": 20,
+    "frequency": {
+      "times": 1,
+      "period": "day"
+    },
+    "details": "~40 g protein, finish ≥3h before bed",
+    "facilitator": {
+      "role": "self",
+      "id": null
+    },
+    "location": "res-home",
+    "remote_capable": false,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "resume at the next meal — don't double up",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "evening",
+      "meal_relation": "with_food"
+    },
+    "load": {
+      "intensity": "none",
+      "score": 0
+    },
+    "min_gap_hours": 24,
+    "duration_min": 40,
+    "travel_behavior": "continue",
+    "all_day": false
+  },
+  {
+    "id": "act-cgm-guided-meal",
+    "name": "CGM-guided meal",
+    "type": "food",
+    "pillar": "Nutrition",
+    "priority": 20,
+    "frequency": {
+      "times": 2,
+      "period": "week"
+    },
+    "details": "Order food → protein/veg first, keep glucose rise < 30 mg/dL",
+    "facilitator": {
+      "role": "self",
+      "id": null
+    },
+    "location": "res-home",
+    "remote_capable": false,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "resume at the next meal — don't double up",
+    "metrics": [
+      "glucose AUC"
+    ],
+    "circadian": {
+      "window": "midday",
+      "meal_relation": "with_food"
+    },
+    "load": {
+      "intensity": "none",
+      "score": 0
+    },
+    "min_gap_hours": 24,
+    "duration_min": 30,
+    "travel_behavior": "continue",
+    "all_day": false
+  },
+  {
+    "id": "act-omega-3-rich-meal",
+    "name": "Omega-3 rich meal",
+    "type": "food",
+    "pillar": "Nutrition",
+    "priority": 20,
+    "frequency": {
+      "times": 2,
+      "period": "week"
+    },
+    "details": "Wild salmon/sardines, ~2 g EPA+DHA from food",
+    "facilitator": {
+      "role": "self",
+      "id": null
+    },
+    "location": "res-home",
+    "remote_capable": false,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "resume at the next meal — don't double up",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "evening",
+      "meal_relation": "with_fat"
+    },
+    "load": {
+      "intensity": "none",
+      "score": 0
+    },
+    "min_gap_hours": 24,
+    "duration_min": 30,
+    "travel_behavior": "continue",
+    "all_day": false
+  },
+  {
+    "id": "act-hydration-protocol",
+    "name": "Hydration protocol",
+    "type": "food",
+    "pillar": "Nutrition",
+    "priority": 20,
+    "frequency": {
+      "times": 1,
+      "period": "day"
+    },
+    "details": "~3 L water across the day + electrolytes on training days",
+    "facilitator": {
+      "role": "self",
+      "id": null
+    },
+    "location": "res-home",
+    "remote_capable": true,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": null,
+    "metrics": [
+      "fluid L"
+    ],
+    "circadian": {
+      "window": "any",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "none",
+      "score": 0
+    },
+    "min_gap_hours": 24,
+    "duration_min": 5,
+    "travel_behavior": "continue",
+    "all_day": true
+  },
+  {
+    "id": "act-electrolyte-load",
+    "name": "Electrolyte load",
+    "type": "food",
+    "pillar": "Nutrition",
+    "priority": 20,
+    "frequency": {
+      "times": 3,
+      "period": "week"
+    },
+    "details": "Sodium + potassium + magnesium pre-training",
+    "facilitator": {
+      "role": "self",
+      "id": null
+    },
+    "location": "res-home",
+    "remote_capable": true,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "resume at the next meal — don't double up",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "morning",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "none",
+      "score": 0
+    },
+    "min_gap_hours": 24,
+    "duration_min": 5,
+    "travel_behavior": "continue",
+    "all_day": false
+  },
+  {
+    "id": "act-fermented-foods",
+    "name": "Fermented foods",
+    "type": "food",
+    "pillar": "Nutrition",
+    "priority": 20,
+    "frequency": {
+      "times": 3,
+      "period": "week"
+    },
+    "details": "A serving of kefir/kimchi/sauerkraut for gut diversity",
+    "facilitator": {
+      "role": "self",
+      "id": null
+    },
+    "location": "res-home",
+    "remote_capable": false,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "resume at the next meal — don't double up",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "midday",
+      "meal_relation": "with_food"
+    },
+    "load": {
+      "intensity": "none",
+      "score": 0
+    },
+    "min_gap_hours": 24,
+    "duration_min": 10,
+    "travel_behavior": "continue",
+    "all_day": false
+  },
+  {
+    "id": "act-polyphenol-salad",
+    "name": "Polyphenol salad",
+    "type": "food",
+    "pillar": "Nutrition",
+    "priority": 20,
+    "frequency": {
+      "times": 3,
+      "period": "week"
+    },
+    "details": "Mixed colours + EVOO; aim 30 plants/week",
+    "facilitator": {
+      "role": "self",
+      "id": null
+    },
+    "location": "res-home",
+    "remote_capable": false,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "resume at the next meal — don't double up",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "midday",
+      "meal_relation": "with_food"
+    },
+    "load": {
+      "intensity": "none",
+      "score": 0
+    },
+    "min_gap_hours": 24,
+    "duration_min": 15,
+    "travel_behavior": "continue",
+    "all_day": false
+  },
+  {
+    "id": "act-time-restricted-eating-window",
+    "name": "Time-restricted eating window",
+    "type": "food",
+    "pillar": "Nutrition",
+    "priority": 20,
+    "frequency": {
+      "times": 1,
+      "period": "day"
+    },
+    "details": "Keep eating inside a 10-hour window",
+    "facilitator": {
+      "role": "self",
+      "id": null
+    },
+    "location": "res-home",
+    "remote_capable": true,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": null,
+    "metrics": [
+      "window hrs"
+    ],
+    "circadian": {
+      "window": "morning",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "none",
+      "score": 0
+    },
+    "min_gap_hours": 24,
+    "duration_min": 5,
+    "travel_behavior": "continue",
+    "all_day": true
+  },
+  {
+    "id": "act-fibre-target",
+    "name": "Fibre target",
+    "type": "food",
+    "pillar": "Nutrition",
+    "priority": 20,
+    "frequency": {
+      "times": 1,
+      "period": "day"
+    },
+    "details": "≥35 g fibre/day across whole foods",
+    "facilitator": {
+      "role": "self",
+      "id": null
+    },
+    "location": "res-home",
+    "remote_capable": true,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": null,
+    "metrics": [
+      "fibre g"
+    ],
+    "circadian": {
+      "window": "evening",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "none",
+      "score": 0
+    },
+    "min_gap_hours": 24,
+    "duration_min": 5,
+    "travel_behavior": "continue",
+    "all_day": true
+  },
+  {
+    "id": "act-pre-training-carbs",
+    "name": "Pre-training carbs",
+    "type": "food",
+    "pillar": "Nutrition",
+    "priority": 20,
+    "frequency": {
+      "times": 2,
+      "period": "week"
+    },
+    "details": "~30–40 g easy carbs 60–90 min before a hard session",
+    "facilitator": {
+      "role": "self",
+      "id": null
+    },
+    "location": "res-home",
+    "remote_capable": false,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "resume at the next meal — don't double up",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "morning",
+      "meal_relation": "with_food"
+    },
+    "load": {
+      "intensity": "none",
+      "score": 0
+    },
+    "min_gap_hours": 24,
+    "duration_min": 10,
+    "travel_behavior": "continue",
+    "all_day": false
+  },
+  {
+    "id": "act-post-training-protein",
+    "name": "Post-training protein",
+    "type": "food",
+    "pillar": "Nutrition",
+    "priority": 20,
+    "frequency": {
+      "times": 3,
+      "period": "week"
+    },
+    "details": "25–40 g protein within the recovery window",
+    "facilitator": {
+      "role": "self",
+      "id": null
+    },
+    "location": "res-home",
+    "remote_capable": false,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "resume at the next meal — don't double up",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "evening",
+      "meal_relation": "with_food"
+    },
+    "load": {
+      "intensity": "none",
+      "score": 0
+    },
+    "min_gap_hours": 24,
+    "duration_min": 10,
+    "travel_behavior": "continue",
+    "all_day": false
+  },
+  {
+    "id": "act-leafy-greens-portion",
+    "name": "Leafy greens portion",
+    "type": "food",
+    "pillar": "Nutrition",
+    "priority": 20,
+    "frequency": {
+      "times": 1,
+      "period": "day"
+    },
+    "details": "2 cups dark leafy greens — nitrates + folate",
+    "facilitator": {
+      "role": "self",
+      "id": null
+    },
+    "location": "res-home",
+    "remote_capable": false,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "resume at the next meal — don't double up",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "evening",
+      "meal_relation": "with_food"
+    },
+    "load": {
+      "intensity": "none",
+      "score": 0
+    },
+    "min_gap_hours": 24,
+    "duration_min": 10,
+    "travel_behavior": "continue",
+    "all_day": false
+  },
+  {
+    "id": "act-oily-fish-serving",
+    "name": "Oily fish serving",
+    "type": "food",
+    "pillar": "Nutrition",
+    "priority": 20,
+    "frequency": {
+      "times": 2,
+      "period": "week"
+    },
+    "details": "Salmon, mackerel or sardines for omega-3",
+    "facilitator": {
+      "role": "self",
+      "id": null
+    },
+    "location": "res-home",
+    "remote_capable": false,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "resume at the next meal — don't double up",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "evening",
+      "meal_relation": "with_fat"
+    },
+    "load": {
+      "intensity": "none",
+      "score": 0
+    },
+    "min_gap_hours": 24,
+    "duration_min": 20,
+    "travel_behavior": "continue",
+    "all_day": false
+  },
+  {
+    "id": "act-berries-nuts-snack",
+    "name": "Berries & nuts snack",
+    "type": "food",
+    "pillar": "Nutrition",
+    "priority": 20,
+    "frequency": {
+      "times": 3,
+      "period": "week"
+    },
+    "details": "Mixed berries + a small handful of nuts",
+    "facilitator": {
+      "role": "self",
+      "id": null
+    },
+    "location": "res-home",
+    "remote_capable": false,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "resume at the next meal — don't double up",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "midday",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "none",
+      "score": 0
+    },
+    "min_gap_hours": 24,
+    "duration_min": 5,
+    "travel_behavior": "continue",
+    "all_day": false
+  },
+  {
+    "id": "act-no-caffeine-after-2pm",
+    "name": "No caffeine after 2pm",
+    "type": "food",
+    "pillar": "Nutrition",
+    "priority": 20,
+    "frequency": {
+      "times": 1,
+      "period": "day"
+    },
+    "details": "Caffeine cut-off ~8–10h before bed to protect deep sleep",
+    "facilitator": {
+      "role": "self",
+      "id": null
+    },
+    "location": "res-home",
+    "remote_capable": true,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": null,
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "midday",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "none",
+      "score": 0
+    },
+    "min_gap_hours": 24,
+    "duration_min": 1,
+    "travel_behavior": "continue",
+    "all_day": true
+  },
+  {
+    "id": "act-alcohol-free-day",
+    "name": "Alcohol-free day",
+    "type": "food",
+    "pillar": "Nutrition",
+    "priority": 20,
+    "frequency": {
+      "times": 4,
+      "period": "week"
+    },
+    "details": "No alcohol — protects HRV and sleep architecture",
+    "facilitator": {
+      "role": "self",
+      "id": null
+    },
+    "location": "res-home",
+    "remote_capable": true,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": null,
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "evening",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "none",
+      "score": 0
+    },
+    "min_gap_hours": 24,
+    "duration_min": 1,
+    "travel_behavior": "continue",
+    "all_day": true
+  },
+  {
+    "id": "act-bone-broth",
+    "name": "Bone broth",
+    "type": "food",
+    "pillar": "Nutrition",
+    "priority": 20,
+    "frequency": {
+      "times": 2,
+      "period": "week"
+    },
+    "details": "Collagen + electrolytes; gut and joint support",
+    "facilitator": {
+      "role": "self",
+      "id": null
+    },
+    "location": "res-home",
+    "remote_capable": false,
+    "prep": {
+      "description": "simmer 8h or reheat pre-made",
+      "lead_time_min": 30
+    },
+    "backups": [],
+    "skip_adjustment": "resume at the next meal — don't double up",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "evening",
+      "meal_relation": "with_food"
+    },
+    "load": {
+      "intensity": "none",
+      "score": 0
+    },
+    "min_gap_hours": 24,
+    "duration_min": 10,
+    "travel_behavior": "continue",
+    "all_day": false
+  },
+  {
+    "id": "act-meal-prep-session",
+    "name": "Meal prep session",
+    "type": "food",
+    "pillar": "Nutrition",
+    "priority": 20,
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "details": "Batch-cook proteins, grains and veg for the week",
+    "facilitator": {
+      "role": "self",
+      "id": null
+    },
+    "location": "res-home",
+    "remote_capable": false,
+    "prep": {
+      "description": "shop the list; batch-cook + portion into containers",
+      "lead_time_min": 30
+    },
+    "backups": [],
+    "skip_adjustment": "resume at the next meal — don't double up",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "evening",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "none",
+      "score": 0
+    },
+    "min_gap_hours": 24,
+    "duration_min": 60,
+    "travel_behavior": "continue",
+    "all_day": false
+  },
+  {
+    "id": "act-vitamin-d3",
+    "name": "Vitamin D3",
+    "type": "medication",
+    "pillar": "Meds",
+    "priority": 20,
+    "frequency": {
+      "times": 1,
+      "period": "day"
+    },
+    "details": "4000 IU with the fatty breakfast (fat-soluble)",
+    "facilitator": {
+      "role": "self",
+      "id": null
+    },
+    "location": "res-home",
+    "remote_capable": false,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "take at the next scheduled dose — never double",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "morning",
+      "meal_relation": "with_fat"
+    },
+    "load": {
+      "intensity": "none",
+      "score": 0
+    },
+    "min_gap_hours": 24,
+    "duration_min": 1,
+    "travel_behavior": "continue",
+    "all_day": false
+  },
+  {
+    "id": "act-omega-3-capsules",
+    "name": "Omega-3 capsules",
+    "type": "medication",
+    "pillar": "Meds",
+    "priority": 20,
+    "frequency": {
+      "times": 1,
+      "period": "day"
+    },
+    "details": "~2 g combined EPA+DHA with food",
+    "facilitator": {
+      "role": "self",
+      "id": null
+    },
+    "location": "res-home",
+    "remote_capable": false,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "take at the next scheduled dose — never double",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "morning",
+      "meal_relation": "with_fat"
+    },
+    "load": {
+      "intensity": "none",
+      "score": 0
+    },
+    "min_gap_hours": 24,
+    "duration_min": 1,
+    "travel_behavior": "continue",
+    "all_day": false
+  },
+  {
+    "id": "act-magnesium-glycinate",
+    "name": "Magnesium glycinate",
+    "type": "medication",
+    "pillar": "Meds",
+    "priority": 20,
+    "frequency": {
+      "times": 1,
+      "period": "day"
+    },
+    "details": "300–400 mg ~60 min before bed; keep away from iron",
+    "facilitator": {
+      "role": "self",
+      "id": null
+    },
+    "location": "res-home",
+    "remote_capable": false,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "take at the next scheduled dose — never double",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "before_bed",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "none",
+      "score": 0
+    },
+    "min_gap_hours": 24,
+    "duration_min": 1,
+    "travel_behavior": "continue",
+    "all_day": false
+  },
+  {
+    "id": "act-creatine-monohydrate",
+    "name": "Creatine monohydrate",
+    "type": "medication",
+    "pillar": "Meds",
+    "priority": 20,
+    "frequency": {
+      "times": 1,
+      "period": "day"
+    },
+    "details": "5 g daily, timing-agnostic",
+    "facilitator": {
+      "role": "self",
+      "id": null
+    },
+    "location": "res-home",
+    "remote_capable": false,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "take at the next scheduled dose — never double",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "morning",
+      "meal_relation": "with_food"
+    },
+    "load": {
+      "intensity": "none",
+      "score": 0
+    },
+    "min_gap_hours": 24,
+    "duration_min": 1,
+    "travel_behavior": "continue",
+    "all_day": false
+  },
+  {
+    "id": "act-nmn",
+    "name": "NMN",
+    "type": "medication",
+    "pillar": "Meds",
+    "priority": 20,
+    "frequency": {
+      "times": 1,
+      "period": "day"
+    },
+    "details": "500 mg in the morning",
+    "facilitator": {
+      "role": "self",
+      "id": null
+    },
+    "location": "res-home",
+    "remote_capable": false,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "take at the next scheduled dose — never double",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "morning",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "none",
+      "score": 0
+    },
+    "min_gap_hours": 24,
+    "duration_min": 1,
+    "travel_behavior": "continue",
+    "all_day": false
+  },
+  {
+    "id": "act-berberine",
+    "name": "Berberine",
+    "type": "medication",
+    "pillar": "Meds",
+    "priority": 20,
+    "frequency": {
+      "times": 1,
+      "period": "day"
+    },
+    "details": "500 mg with the largest carb-containing meal",
+    "facilitator": {
+      "role": "self",
+      "id": null
+    },
+    "location": "res-home",
+    "remote_capable": false,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "take at the next scheduled dose — never double",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "midday",
+      "meal_relation": "with_food"
+    },
+    "load": {
+      "intensity": "none",
+      "score": 0
+    },
+    "min_gap_hours": 24,
+    "duration_min": 1,
+    "travel_behavior": "continue",
+    "all_day": false
+  },
+  {
+    "id": "act-probiotic",
+    "name": "Probiotic",
+    "type": "medication",
+    "pillar": "Meds",
+    "priority": 20,
+    "frequency": {
+      "times": 1,
+      "period": "day"
+    },
+    "details": "Multi-strain, on an empty stomach",
+    "facilitator": {
+      "role": "self",
+      "id": null
+    },
+    "location": "res-home",
+    "remote_capable": false,
+    "prep": {
+      "description": "take ~20 min before breakfast",
+      "lead_time_min": 30
+    },
+    "backups": [],
+    "skip_adjustment": "take at the next scheduled dose — never double",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "morning",
+      "meal_relation": "empty_stomach"
+    },
+    "load": {
+      "intensity": "none",
+      "score": 0
+    },
+    "min_gap_hours": 24,
+    "duration_min": 1,
+    "travel_behavior": "continue",
+    "all_day": false
+  },
+  {
+    "id": "act-vitamin-k2",
+    "name": "Vitamin K2",
+    "type": "medication",
+    "pillar": "Meds",
+    "priority": 20,
+    "frequency": {
+      "times": 1,
+      "period": "day"
+    },
+    "details": "MK-7 100 mcg with fat; pairs with vitamin D",
+    "facilitator": {
+      "role": "self",
+      "id": null
+    },
+    "location": "res-home",
+    "remote_capable": false,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "take at the next scheduled dose — never double",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "morning",
+      "meal_relation": "with_fat"
+    },
+    "load": {
+      "intensity": "none",
+      "score": 0
+    },
+    "min_gap_hours": 24,
+    "duration_min": 1,
+    "travel_behavior": "continue",
+    "all_day": false
+  },
+  {
+    "id": "act-zinc",
+    "name": "Zinc",
+    "type": "medication",
+    "pillar": "Meds",
+    "priority": 20,
+    "frequency": {
+      "times": 3,
+      "period": "week"
+    },
+    "details": "15 mg with food; not alongside iron",
+    "facilitator": {
+      "role": "self",
+      "id": null
+    },
+    "location": "res-home",
+    "remote_capable": false,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "take at the next scheduled dose — never double",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "evening",
+      "meal_relation": "with_food"
+    },
+    "load": {
+      "intensity": "none",
+      "score": 0
+    },
+    "min_gap_hours": 24,
+    "duration_min": 1,
+    "travel_behavior": "continue",
+    "all_day": false
+  },
+  {
+    "id": "act-b-complex",
+    "name": "B-complex",
+    "type": "medication",
+    "pillar": "Meds",
+    "priority": 20,
+    "frequency": {
+      "times": 1,
+      "period": "day"
+    },
+    "details": "Methylated B-complex with breakfast",
+    "facilitator": {
+      "role": "self",
+      "id": null
+    },
+    "location": "res-home",
+    "remote_capable": false,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "take at the next scheduled dose — never double",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "morning",
+      "meal_relation": "with_food"
+    },
+    "load": {
+      "intensity": "none",
+      "score": 0
+    },
+    "min_gap_hours": 24,
+    "duration_min": 1,
+    "travel_behavior": "continue",
+    "all_day": false
+  },
+  {
+    "id": "act-coq10",
+    "name": "CoQ10",
+    "type": "medication",
+    "pillar": "Meds",
+    "priority": 20,
+    "frequency": {
+      "times": 1,
+      "period": "day"
+    },
+    "details": "100 mg ubiquinol with a fatty meal",
+    "facilitator": {
+      "role": "self",
+      "id": null
+    },
+    "location": "res-home",
+    "remote_capable": false,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "take at the next scheduled dose — never double",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "morning",
+      "meal_relation": "with_fat"
+    },
+    "load": {
+      "intensity": "none",
+      "score": 0
+    },
+    "min_gap_hours": 24,
+    "duration_min": 1,
+    "travel_behavior": "continue",
+    "all_day": false
+  },
+  {
+    "id": "act-ashwagandha",
+    "name": "Ashwagandha",
+    "type": "medication",
+    "pillar": "Meds",
+    "priority": 20,
+    "frequency": {
+      "times": 1,
+      "period": "day"
+    },
+    "details": "600 mg KSM-66 in the evening for stress/cortisol",
+    "facilitator": {
+      "role": "self",
+      "id": null
+    },
+    "location": "res-home",
+    "remote_capable": false,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "take at the next scheduled dose — never double",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "before_bed",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "none",
+      "score": 0
+    },
+    "min_gap_hours": 24,
+    "duration_min": 1,
+    "travel_behavior": "continue",
+    "all_day": false
+  },
+  {
+    "id": "act-glycine",
+    "name": "Glycine",
+    "type": "medication",
+    "pillar": "Meds",
+    "priority": 20,
+    "frequency": {
+      "times": 1,
+      "period": "day"
+    },
+    "details": "3 g before bed to support sleep onset",
+    "facilitator": {
+      "role": "self",
+      "id": null
+    },
+    "location": "res-home",
+    "remote_capable": false,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "take at the next scheduled dose — never double",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "before_bed",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "none",
+      "score": 0
+    },
+    "min_gap_hours": 24,
+    "duration_min": 1,
+    "travel_behavior": "continue",
+    "all_day": false
+  },
+  {
+    "id": "act-taurine",
+    "name": "Taurine",
+    "type": "medication",
+    "pillar": "Meds",
+    "priority": 20,
+    "frequency": {
+      "times": 1,
+      "period": "day"
+    },
+    "details": "1–2 g in the morning",
+    "facilitator": {
+      "role": "self",
+      "id": null
+    },
+    "location": "res-home",
+    "remote_capable": false,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "take at the next scheduled dose — never double",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "morning",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "none",
+      "score": 0
+    },
+    "min_gap_hours": 24,
+    "duration_min": 1,
+    "travel_behavior": "continue",
+    "all_day": false
+  },
+  {
+    "id": "act-collagen-peptides",
+    "name": "Collagen peptides",
+    "type": "medication",
+    "pillar": "Meds",
+    "priority": 20,
+    "frequency": {
+      "times": 1,
+      "period": "day"
+    },
+    "details": "15 g with vitamin C for connective tissue",
+    "facilitator": {
+      "role": "self",
+      "id": null
+    },
+    "location": "res-home",
+    "remote_capable": false,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "take at the next scheduled dose — never double",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "morning",
+      "meal_relation": "with_food"
+    },
+    "load": {
+      "intensity": "none",
+      "score": 0
+    },
+    "min_gap_hours": 24,
+    "duration_min": 1,
+    "travel_behavior": "continue",
+    "all_day": false
+  },
+  {
+    "id": "act-iron-fasted",
+    "name": "Iron (fasted)",
+    "type": "medication",
+    "pillar": "Meds",
+    "priority": 20,
+    "frequency": {
+      "times": 3,
+      "period": "week"
+    },
+    "details": "On an empty stomach with vitamin C; away from calcium",
+    "facilitator": {
+      "role": "self",
+      "id": null
+    },
+    "location": "res-home",
+    "remote_capable": false,
+    "prep": {
+      "description": "take fasted, 30 min before food; no coffee/dairy",
+      "lead_time_min": 30
+    },
+    "backups": [],
+    "skip_adjustment": "take at the next scheduled dose — never double",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "morning",
+      "meal_relation": "empty_stomach"
+    },
+    "load": {
+      "intensity": "none",
+      "score": 0
+    },
+    "min_gap_hours": 24,
+    "duration_min": 1,
+    "travel_behavior": "continue",
+    "all_day": false
+  },
+  {
+    "id": "act-curcumin",
+    "name": "Curcumin",
+    "type": "medication",
+    "pillar": "Meds",
+    "priority": 20,
+    "frequency": {
+      "times": 1,
+      "period": "day"
+    },
+    "details": "500 mg with piperine + fat for absorption",
+    "facilitator": {
+      "role": "self",
+      "id": null
+    },
+    "location": "res-home",
+    "remote_capable": false,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "take at the next scheduled dose — never double",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "evening",
+      "meal_relation": "with_fat"
+    },
+    "load": {
+      "intensity": "none",
+      "score": 0
+    },
+    "min_gap_hours": 24,
+    "duration_min": 1,
+    "travel_behavior": "continue",
+    "all_day": false
+  },
+  {
+    "id": "act-melatonin-travel",
+    "name": "Melatonin (travel)",
+    "type": "medication",
+    "pillar": "Meds",
+    "priority": 20,
+    "frequency": {
+      "times": 1,
+      "period": "month"
+    },
+    "details": "0.5–1 mg, timed to the destination bedtime",
+    "facilitator": {
+      "role": "self",
+      "id": null
+    },
+    "location": "res-home",
+    "remote_capable": false,
+    "prep": {
+      "description": "take ~30 min before target local bedtime",
+      "lead_time_min": 30
+    },
+    "backups": [],
+    "skip_adjustment": "take at the next scheduled dose — never double",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "before_bed",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "none",
+      "score": 0
+    },
+    "min_gap_hours": 24,
+    "duration_min": 1,
+    "travel_behavior": "continue",
+    "all_day": false
+  },
+  {
+    "id": "act-vitamin-c",
+    "name": "Vitamin C",
+    "type": "medication",
+    "pillar": "Meds",
+    "priority": 20,
+    "frequency": {
+      "times": 1,
+      "period": "day"
+    },
+    "details": "500 mg with food",
+    "facilitator": {
+      "role": "self",
+      "id": null
+    },
+    "location": "res-home",
+    "remote_capable": false,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "take at the next scheduled dose — never double",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "morning",
+      "meal_relation": "with_food"
+    },
+    "load": {
+      "intensity": "none",
+      "score": 0
+    },
+    "min_gap_hours": 24,
+    "duration_min": 1,
+    "travel_behavior": "continue",
+    "all_day": false
+  },
+  {
+    "id": "act-fish-oil-high-dose",
+    "name": "Fish oil (high-dose)",
+    "type": "medication",
+    "pillar": "Meds",
+    "priority": 20,
+    "frequency": {
+      "times": 3,
+      "period": "week"
+    },
+    "details": "3 g on heavy-training days for recovery",
+    "facilitator": {
+      "role": "self",
+      "id": null
+    },
+    "location": "res-home",
+    "remote_capable": false,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "take at the next scheduled dose — never double",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "evening",
+      "meal_relation": "with_fat"
+    },
+    "load": {
+      "intensity": "none",
+      "score": 0
+    },
+    "min_gap_hours": 24,
+    "duration_min": 1,
+    "travel_behavior": "continue",
+    "all_day": false
+  },
+  {
+    "id": "act-electrolyte-tablets",
+    "name": "Electrolyte tablets",
+    "type": "medication",
+    "pillar": "Meds",
+    "priority": 20,
+    "frequency": {
+      "times": 3,
+      "period": "week"
+    },
+    "details": "Sodium/potassium tab on long-session mornings",
+    "facilitator": {
+      "role": "self",
+      "id": null
+    },
+    "location": "res-home",
+    "remote_capable": false,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "take at the next scheduled dose — never double",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "morning",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "none",
+      "score": 0
+    },
+    "min_gap_hours": 24,
+    "duration_min": 1,
+    "travel_behavior": "continue",
+    "all_day": false
+  },
+  {
+    "id": "act-psyllium-fibre",
+    "name": "Psyllium fibre",
+    "type": "medication",
+    "pillar": "Meds",
+    "priority": 20,
+    "frequency": {
+      "times": 1,
+      "period": "day"
+    },
+    "details": "5 g with a large glass of water",
+    "facilitator": {
+      "role": "self",
+      "id": null
+    },
+    "location": "res-home",
+    "remote_capable": false,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "take at the next scheduled dose — never double",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "evening",
+      "meal_relation": "with_food"
+    },
+    "load": {
+      "intensity": "none",
+      "score": 0
+    },
+    "min_gap_hours": 24,
+    "duration_min": 1,
+    "travel_behavior": "continue",
+    "all_day": false
+  },
+  {
+    "id": "act-sauna",
+    "name": "Sauna",
+    "type": "therapy",
+    "pillar": "Therapies",
+    "priority": 20,
+    "frequency": {
+      "times": 3,
+      "period": "week"
+    },
+    "details": "80–90°C, 20–25 min, after training (heat-shock + recovery)",
+    "facilitator": {
+      "role": "technician",
+      "id": "res-technician"
+    },
+    "location": "res-sauna",
+    "remote_capable": false,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [
+      "act-hot-bath"
+    ],
+    "skip_adjustment": "rebook the clinic slot within the next day or two",
+    "metrics": [
+      "duration",
+      "HR"
+    ],
+    "circadian": {
+      "window": "evening",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "low",
+      "score": 3
+    },
+    "min_gap_hours": 24,
+    "duration_min": 25,
+    "travel_behavior": "skip",
+    "all_day": false
+  },
+  {
+    "id": "act-cold-plunge",
+    "name": "Cold plunge",
+    "type": "therapy",
+    "pillar": "Therapies",
+    "priority": 20,
+    "frequency": {
+      "times": 2,
+      "period": "week"
+    },
+    "details": "10–12°C, 2–3 min; not within 4h of hypertrophy work",
+    "facilitator": {
+      "role": "technician",
+      "id": "res-technician"
+    },
+    "location": "res-cryo",
+    "remote_capable": false,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [
+      "act-cold-shower"
+    ],
+    "skip_adjustment": "rebook the clinic slot within the next day or two",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "morning",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "low",
+      "score": 3
+    },
+    "min_gap_hours": 24,
+    "duration_min": 10,
+    "travel_behavior": "skip",
+    "all_day": false
+  },
+  {
+    "id": "act-cryotherapy",
+    "name": "Cryotherapy",
+    "type": "therapy",
+    "pillar": "Therapies",
+    "priority": 20,
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "details": "−110°C whole-body, 3 min",
+    "facilitator": {
+      "role": "technician",
+      "id": "res-technician"
+    },
+    "location": "res-cryo",
+    "remote_capable": false,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [
+      "act-cold-plunge"
+    ],
+    "skip_adjustment": "rebook the clinic slot within the next day or two",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "morning",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "low",
+      "score": 3
+    },
+    "min_gap_hours": 24,
+    "duration_min": 5,
+    "travel_behavior": "skip",
+    "all_day": false
+  },
+  {
+    "id": "act-red-light-therapy",
+    "name": "Red-light therapy",
+    "type": "therapy",
+    "pillar": "Therapies",
+    "priority": 20,
+    "frequency": {
+      "times": 2,
+      "period": "week"
+    },
+    "details": "660/850 nm panel, 10–20 min on bare skin",
+    "facilitator": {
+      "role": "technician",
+      "id": "res-technician"
+    },
+    "location": "res-redlight",
+    "remote_capable": false,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "rebook the clinic slot within the next day or two",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "evening",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "none",
+      "score": 1
+    },
+    "min_gap_hours": 24,
+    "duration_min": 20,
+    "travel_behavior": "skip",
+    "all_day": false
+  },
+  {
+    "id": "act-hbot-session",
+    "name": "HBOT session",
+    "type": "therapy",
+    "pillar": "Therapies",
+    "priority": 20,
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "details": "90 min at ~2.0 ATA",
+    "facilitator": {
+      "role": "technician",
+      "id": "res-technician"
+    },
+    "location": "res-hbot",
+    "remote_capable": false,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "rebook the clinic slot within the next day or two",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "midday",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "none",
+      "score": 1
+    },
+    "min_gap_hours": 24,
+    "duration_min": 90,
+    "travel_behavior": "skip",
+    "all_day": false
+  },
+  {
+    "id": "act-sports-massage",
+    "name": "Sports massage",
+    "type": "therapy",
+    "pillar": "Therapies",
+    "priority": 20,
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "details": "Deep-tissue, focus on training-stressed areas",
+    "facilitator": {
+      "role": "physio",
+      "id": "res-physio"
+    },
+    "location": "res-clinic",
+    "remote_capable": false,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "rebook the clinic slot within the next day or two",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "evening",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "low",
+      "score": 2
+    },
+    "min_gap_hours": 24,
+    "duration_min": 60,
+    "travel_behavior": "skip",
+    "all_day": false
+  },
+  {
+    "id": "act-contrast-therapy",
+    "name": "Contrast therapy",
+    "type": "therapy",
+    "pillar": "Therapies",
+    "priority": 20,
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "details": "Hot/cold alternation × 3–4 rounds, finish cold",
+    "facilitator": {
+      "role": "technician",
+      "id": "res-technician"
+    },
+    "location": "res-sauna",
+    "remote_capable": false,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [
+      "act-sauna"
+    ],
+    "skip_adjustment": "rebook the clinic slot within the next day or two",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "evening",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "low",
+      "score": 3
+    },
+    "min_gap_hours": 24,
+    "duration_min": 30,
+    "travel_behavior": "skip",
+    "all_day": false
+  },
+  {
+    "id": "act-compression-boots",
+    "name": "Compression boots",
+    "type": "therapy",
+    "pillar": "Therapies",
+    "priority": 20,
+    "frequency": {
+      "times": 2,
+      "period": "week"
+    },
+    "details": "Pneumatic recovery boots, 30 min, legs elevated",
+    "facilitator": {
+      "role": "self",
+      "id": null
+    },
+    "location": "res-home",
+    "remote_capable": false,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": null,
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "before_bed",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "none",
+      "score": 1
+    },
+    "min_gap_hours": 24,
+    "duration_min": 30,
+    "travel_behavior": "continue",
+    "all_day": false
+  },
+  {
+    "id": "act-float-tank",
+    "name": "Float tank",
+    "type": "therapy",
+    "pillar": "Therapies",
+    "priority": 20,
+    "frequency": {
+      "times": 1,
+      "period": "month"
+    },
+    "details": "Sensory-deprivation float for nervous-system downshift",
+    "facilitator": {
+      "role": "technician",
+      "id": "res-technician"
+    },
+    "location": "res-clinic",
+    "remote_capable": false,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "rebook the clinic slot within the next day or two",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "evening",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "none",
+      "score": 1
+    },
+    "min_gap_hours": 24,
+    "duration_min": 60,
+    "travel_behavior": "skip",
+    "all_day": false
+  },
+  {
+    "id": "act-pemf-mat",
+    "name": "PEMF mat",
+    "type": "therapy",
+    "pillar": "Therapies",
+    "priority": 20,
+    "frequency": {
+      "times": 2,
+      "period": "week"
+    },
+    "details": "Low-frequency PEMF mat, 20 min pre-sleep",
+    "facilitator": {
+      "role": "self",
+      "id": null
+    },
+    "location": "res-home",
+    "remote_capable": false,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": null,
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "before_bed",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "none",
+      "score": 1
+    },
+    "min_gap_hours": 24,
+    "duration_min": 20,
+    "travel_behavior": "continue",
+    "all_day": false
+  },
+  {
+    "id": "act-breathwork-session",
+    "name": "Breathwork session",
+    "type": "therapy",
+    "pillar": "Therapies",
+    "priority": 20,
+    "frequency": {
+      "times": 3,
+      "period": "week"
+    },
+    "details": "Slow nasal breathing / box breathing to lift HRV",
+    "facilitator": {
+      "role": "self",
+      "id": null
+    },
+    "location": "res-home",
+    "remote_capable": false,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": null,
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "before_bed",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "low",
+      "score": 1
+    },
+    "min_gap_hours": 24,
+    "duration_min": 15,
+    "travel_behavior": "continue",
+    "all_day": false
+  },
+  {
+    "id": "act-hot-bath",
+    "name": "Hot bath",
+    "type": "therapy",
+    "pillar": "Therapies",
+    "priority": 20,
+    "frequency": {
+      "times": 1,
+      "period": "month"
+    },
+    "details": "40°C bath 1–2h before bed to aid sleep onset",
+    "facilitator": {
+      "role": "self",
+      "id": null
+    },
+    "location": "res-home",
+    "remote_capable": false,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": null,
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "before_bed",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "low",
+      "score": 2
+    },
+    "min_gap_hours": 24,
+    "duration_min": 20,
+    "travel_behavior": "continue",
+    "all_day": false
+  },
+  {
+    "id": "act-cold-shower",
+    "name": "Cold shower",
+    "type": "therapy",
+    "pillar": "Therapies",
+    "priority": 20,
+    "frequency": {
+      "times": 1,
+      "period": "month"
+    },
+    "details": "2–3 min cold finish to a morning shower",
+    "facilitator": {
+      "role": "self",
+      "id": null
+    },
+    "location": "res-home",
+    "remote_capable": false,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": null,
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "morning",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "low",
+      "score": 2
+    },
+    "min_gap_hours": 24,
+    "duration_min": 5,
+    "travel_behavior": "continue",
+    "all_day": false
+  },
+  {
+    "id": "act-stretch-therapy",
+    "name": "Stretch therapy",
+    "type": "therapy",
+    "pillar": "Therapies",
+    "priority": 20,
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "details": "Assisted stretching for hips/shoulders",
+    "facilitator": {
+      "role": "physio",
+      "id": "res-physio"
+    },
+    "location": "res-clinic",
+    "remote_capable": false,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "rebook the clinic slot within the next day or two",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "evening",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "low",
+      "score": 2
+    },
+    "min_gap_hours": 24,
+    "duration_min": 45,
+    "travel_behavior": "skip",
+    "all_day": false
+  },
+  {
+    "id": "act-lymphatic-massage",
+    "name": "Lymphatic massage",
+    "type": "therapy",
+    "pillar": "Therapies",
+    "priority": 20,
+    "frequency": {
+      "times": 1,
+      "period": "month"
+    },
+    "details": "Light drainage massage to reduce swelling/fatigue",
+    "facilitator": {
+      "role": "physio",
+      "id": "res-physio"
+    },
+    "location": "res-clinic",
+    "remote_capable": false,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "rebook the clinic slot within the next day or two",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "evening",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "low",
+      "score": 2
+    },
+    "min_gap_hours": 24,
+    "duration_min": 45,
+    "travel_behavior": "skip",
+    "all_day": false
+  },
+  {
+    "id": "act-acupuncture",
+    "name": "Acupuncture",
+    "type": "therapy",
+    "pillar": "Therapies",
+    "priority": 20,
+    "frequency": {
+      "times": 1,
+      "period": "month"
+    },
+    "details": "Targeted needling for tension and recovery",
+    "facilitator": {
+      "role": "physio",
+      "id": "res-physio"
+    },
+    "location": "res-clinic",
+    "remote_capable": false,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "rebook the clinic slot within the next day or two",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "midday",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "none",
+      "score": 1
+    },
+    "min_gap_hours": 24,
+    "duration_min": 45,
+    "travel_behavior": "skip",
+    "all_day": false
+  },
+  {
+    "id": "act-physician-review",
+    "name": "Physician review",
+    "type": "consultation",
+    "pillar": "Diagnostics",
+    "priority": 2,
+    "frequency": {
+      "times": 1,
+      "period": "quarter"
+    },
+    "details": "Review biomarkers + wearable trends; adjust the protocol",
+    "facilitator": {
+      "role": "physician",
+      "id": "res-physician"
+    },
+    "location": "res-clinic",
+    "remote_capable": true,
+    "prep": {
+      "description": "bring wearables export + latest labs",
+      "lead_time_min": 30
+    },
+    "backups": [],
+    "skip_adjustment": "rebook within the same week",
+    "metrics": [
+      "biomarkers"
+    ],
+    "circadian": {
+      "window": "morning",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "none",
+      "score": 0
+    },
+    "min_gap_hours": 24,
+    "duration_min": 45,
+    "travel_behavior": "remote",
+    "all_day": false
+  },
+  {
+    "id": "act-dietitian-check-in",
+    "name": "Dietitian check-in",
+    "type": "consultation",
+    "pillar": "Nutrition",
+    "priority": 14,
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "details": "Weekly adherence + tweak macros and meal timing",
+    "facilitator": {
+      "role": "dietitian",
+      "id": "res-dietitian"
+    },
+    "location": "res-clinic",
+    "remote_capable": true,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "rebook within the same week",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "midday",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "none",
+      "score": 0
+    },
+    "min_gap_hours": 24,
+    "duration_min": 30,
+    "travel_behavior": "remote",
+    "all_day": false
+  },
+  {
+    "id": "act-psychology-session",
+    "name": "Psychology session",
+    "type": "consultation",
+    "pillar": "Mind",
+    "priority": 6,
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "details": "Stress + sleep psychology; CBT tools for a high-pressure calendar",
+    "facilitator": {
+      "role": "psychologist",
+      "id": "res-psychologist"
+    },
+    "location": "res-clinic",
+    "remote_capable": true,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "rebook within the same week",
+    "metrics": [
+      "mood"
+    ],
+    "circadian": {
+      "window": "midday",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "none",
+      "score": 0
+    },
+    "min_gap_hours": 24,
+    "duration_min": 50,
+    "travel_behavior": "remote",
+    "all_day": false
+  },
+  {
+    "id": "act-physio-assessment",
+    "name": "Physio assessment",
+    "type": "consultation",
+    "pillar": "Movement",
+    "priority": 12,
+    "frequency": {
+      "times": 1,
+      "period": "month"
+    },
+    "details": "Movement quality + niggle check; update mobility work",
+    "facilitator": {
+      "role": "physio",
+      "id": "res-physio"
+    },
+    "location": "res-clinic",
+    "remote_capable": true,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "rebook within the same week",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "midday",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "none",
+      "score": 0
+    },
+    "min_gap_hours": 24,
+    "duration_min": 45,
+    "travel_behavior": "remote",
+    "all_day": false
+  },
+  {
+    "id": "act-sports-medicine-review",
+    "name": "Sports-medicine review",
+    "type": "consultation",
+    "pillar": "Movement",
+    "priority": 11,
+    "frequency": {
+      "times": 1,
+      "period": "quarter"
+    },
+    "details": "Training-load review + injury-risk screen",
+    "facilitator": {
+      "role": "sports-medicine",
+      "id": "res-sportsmd"
+    },
+    "location": "res-clinic",
+    "remote_capable": true,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "rebook within the same week",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "midday",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "none",
+      "score": 0
+    },
+    "min_gap_hours": 24,
+    "duration_min": 40,
+    "travel_behavior": "remote",
+    "all_day": false
+  },
+  {
+    "id": "act-sleep-consult",
+    "name": "Sleep consult",
+    "type": "consultation",
+    "pillar": "Sleep",
+    "priority": 5,
+    "frequency": {
+      "times": 1,
+      "period": "month"
+    },
+    "details": "Review sleep stages/HRV; refine wind-down + light protocol",
+    "facilitator": {
+      "role": "physician",
+      "id": "res-physician"
+    },
+    "location": "res-clinic",
+    "remote_capable": true,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "rebook within the same week",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "evening",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "none",
+      "score": 0
+    },
+    "min_gap_hours": 24,
+    "duration_min": 40,
+    "travel_behavior": "remote",
+    "all_day": false
+  },
+  {
+    "id": "act-dexa-body-composition",
+    "name": "DEXA body composition",
+    "type": "consultation",
+    "pillar": "Diagnostics",
+    "priority": 4,
+    "frequency": {
+      "times": 1,
+      "period": "quarter"
+    },
+    "details": "Whole-body scan: body-fat %, lean mass, visceral fat, bone density",
+    "facilitator": {
+      "role": "lab-technician",
+      "id": "res-labtech"
+    },
+    "location": "res-dexa",
+    "remote_capable": false,
+    "prep": {
+      "description": "fasted 3h; no exercise beforehand",
+      "lead_time_min": 30
+    },
+    "backups": [],
+    "skip_adjustment": "rebook within the same week",
+    "metrics": [
+      "body-fat %",
+      "lean mass"
+    ],
+    "circadian": {
+      "window": "morning",
+      "meal_relation": "fasted"
+    },
+    "load": {
+      "intensity": "none",
+      "score": 0
+    },
+    "min_gap_hours": 24,
+    "duration_min": 30,
+    "travel_behavior": "skip",
+    "all_day": false
+  },
+  {
+    "id": "act-vo2max-lab-retest",
+    "name": "VO2max lab retest",
+    "type": "consultation",
+    "pillar": "Movement",
+    "priority": 7,
+    "frequency": {
+      "times": 1,
+      "period": "quarter"
+    },
+    "details": "Graded treadmill test to exhaustion with gas analysis",
+    "facilitator": {
+      "role": "lab-technician",
+      "id": "res-labtech"
+    },
+    "location": "res-vo2lab",
+    "remote_capable": false,
+    "prep": {
+      "description": "no hard training 24h prior; bring HR strap",
+      "lead_time_min": 30
+    },
+    "backups": [],
+    "skip_adjustment": "rebook within the same week",
+    "metrics": [
+      "VO2max"
+    ],
+    "circadian": {
+      "window": "morning",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "moderate",
+      "score": 6
+    },
+    "min_gap_hours": 24,
+    "duration_min": 45,
+    "travel_behavior": "skip",
+    "all_day": false
+  },
+  {
+    "id": "act-quarterly-bloods",
+    "name": "Quarterly bloods",
+    "type": "consultation",
+    "pillar": "Diagnostics",
+    "priority": 3,
+    "frequency": {
+      "times": 1,
+      "period": "quarter"
+    },
+    "details": "Fasted panel: ApoB, HbA1c, hsCRP, lipids, metabolic markers",
+    "facilitator": {
+      "role": "lab-technician",
+      "id": "res-labtech"
+    },
+    "location": "res-bloodlab",
+    "remote_capable": false,
+    "prep": {
+      "description": "fasted 12h; water only",
+      "lead_time_min": 30
+    },
+    "backups": [],
+    "skip_adjustment": "rebook within the same week",
+    "metrics": [
+      "ApoB",
+      "HbA1c",
+      "hsCRP"
+    ],
+    "circadian": {
+      "window": "morning",
+      "meal_relation": "fasted"
+    },
+    "load": {
+      "intensity": "none",
+      "score": 0
+    },
+    "min_gap_hours": 24,
+    "duration_min": 20,
+    "travel_behavior": "skip",
+    "all_day": false
+  },
+  {
+    "id": "act-brain-health-evaluation",
+    "name": "Brain health evaluation",
+    "type": "consultation",
+    "pillar": "Mind",
+    "priority": 8,
+    "frequency": {
+      "times": 1,
+      "period": "quarter"
+    },
+    "details": "Cognitive battery: memory, processing speed, attention",
+    "facilitator": {
+      "role": "psychologist",
+      "id": "res-psychologist"
+    },
+    "location": "res-clinic",
+    "remote_capable": true,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "rebook within the same week",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "morning",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "none",
+      "score": 0
+    },
+    "min_gap_hours": 24,
+    "duration_min": 60,
+    "travel_behavior": "remote",
+    "all_day": false
+  },
+  {
+    "id": "act-cardiovascular-test",
+    "name": "Cardiovascular test",
+    "type": "consultation",
+    "pillar": "Diagnostics",
+    "priority": 5,
+    "frequency": {
+      "times": 1,
+      "period": "quarter"
+    },
+    "details": "Stress ECG + blood pressure response under load",
+    "facilitator": {
+      "role": "physician",
+      "id": "res-physician"
+    },
+    "location": "res-clinic",
+    "remote_capable": false,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "rebook within the same week",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "morning",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "moderate",
+      "score": 5
+    },
+    "min_gap_hours": 24,
+    "duration_min": 45,
+    "travel_behavior": "skip",
+    "all_day": false
+  },
+  {
+    "id": "act-cgm-review",
+    "name": "CGM review",
+    "type": "consultation",
+    "pillar": "Nutrition",
+    "priority": 15,
+    "frequency": {
+      "times": 1,
+      "period": "month"
+    },
+    "details": "Read 2-week CGM traces; identify glucose-spiking foods",
+    "facilitator": {
+      "role": "dietitian",
+      "id": "res-dietitian"
+    },
+    "location": "res-clinic",
+    "remote_capable": true,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "rebook within the same week",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "midday",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "none",
+      "score": 0
+    },
+    "min_gap_hours": 24,
+    "duration_min": 30,
+    "travel_behavior": "remote",
+    "all_day": false
+  },
+  {
+    "id": "act-skin-check",
+    "name": "Skin check",
+    "type": "consultation",
+    "pillar": "Diagnostics",
+    "priority": 18,
+    "frequency": {
+      "times": 1,
+      "period": "quarter"
+    },
+    "details": "Full-body mole/lesion mapping",
+    "facilitator": {
+      "role": "physician",
+      "id": "res-physician"
+    },
+    "location": "res-clinic",
+    "remote_capable": false,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "rebook within the same week",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "midday",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "none",
+      "score": 0
+    },
+    "min_gap_hours": 24,
+    "duration_min": 20,
+    "travel_behavior": "skip",
+    "all_day": false
+  },
+  {
+    "id": "act-eye-exam",
+    "name": "Eye exam",
+    "type": "consultation",
+    "pillar": "Diagnostics",
+    "priority": 18,
+    "frequency": {
+      "times": 1,
+      "period": "quarter"
+    },
+    "details": "Vision + retinal imaging (vascular health proxy)",
+    "facilitator": {
+      "role": "physician",
+      "id": "res-physician"
+    },
+    "location": "res-clinic",
+    "remote_capable": false,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "rebook within the same week",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "midday",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "none",
+      "score": 0
+    },
+    "min_gap_hours": 24,
+    "duration_min": 30,
+    "travel_behavior": "skip",
+    "all_day": false
+  },
+  {
+    "id": "act-hormone-panel-review",
+    "name": "Hormone panel review",
+    "type": "consultation",
+    "pillar": "Diagnostics",
+    "priority": 9,
+    "frequency": {
+      "times": 1,
+      "period": "quarter"
+    },
+    "details": "Testosterone, thyroid, cortisol — review + titrate",
+    "facilitator": {
+      "role": "physician",
+      "id": "res-physician"
+    },
+    "location": "res-clinic",
+    "remote_capable": true,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "rebook within the same week",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "morning",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "none",
+      "score": 0
+    },
+    "min_gap_hours": 24,
+    "duration_min": 30,
+    "travel_behavior": "remote",
+    "all_day": false
+  },
+  {
+    "id": "act-cognitive-coaching",
+    "name": "Cognitive coaching",
+    "type": "consultation",
+    "pillar": "Mind",
+    "priority": 13,
+    "frequency": {
+      "times": 1,
+      "period": "month"
+    },
+    "details": "Focus, decision-making and recovery-mindset coaching",
+    "facilitator": {
+      "role": "psychologist",
+      "id": "res-psychologist"
+    },
+    "location": "res-clinic",
+    "remote_capable": true,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "rebook within the same week",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "midday",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "none",
+      "score": 0
+    },
+    "min_gap_hours": 24,
+    "duration_min": 45,
+    "travel_behavior": "remote",
+    "all_day": false
+  },
+  {
+    "id": "act-movement-screen",
+    "name": "Movement screen",
+    "type": "consultation",
+    "pillar": "Movement",
+    "priority": 16,
+    "frequency": {
+      "times": 1,
+      "period": "month"
+    },
+    "details": "FMS-style screen to flag asymmetries",
+    "facilitator": {
+      "role": "physio",
+      "id": "res-physio"
+    },
+    "location": "res-clinic",
+    "remote_capable": true,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "rebook within the same week",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "midday",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "none",
+      "score": 0
+    },
+    "min_gap_hours": 24,
+    "duration_min": 30,
+    "travel_behavior": "remote",
+    "all_day": false
+  },
+  {
+    "id": "act-nutrition-strategy-review",
+    "name": "Nutrition strategy review",
+    "type": "consultation",
+    "pillar": "Nutrition",
+    "priority": 14,
+    "frequency": {
+      "times": 1,
+      "period": "month"
+    },
+    "details": "Monthly strategy: targets, supplements, travel eating",
+    "facilitator": {
+      "role": "dietitian",
+      "id": "res-dietitian"
+    },
+    "location": "res-clinic",
+    "remote_capable": true,
+    "prep": {
+      "description": "",
+      "lead_time_min": 0
+    },
+    "backups": [],
+    "skip_adjustment": "rebook within the same week",
+    "metrics": [
+      "adherence"
+    ],
+    "circadian": {
+      "window": "midday",
+      "meal_relation": "none"
+    },
+    "load": {
+      "intensity": "none",
+      "score": 0
+    },
+    "min_gap_hours": 24,
+    "duration_min": 40,
+    "travel_behavior": "remote",
+    "all_day": false
+  }
+]

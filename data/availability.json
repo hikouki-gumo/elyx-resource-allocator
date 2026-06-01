@@ -1,0 +1,874 @@
+{
+  "resources": {
+    "res-trainer": {
+      "id": "res-trainer",
+      "type": "human",
+      "tier": "moderate",
+      "capacity": 1,
+      "operating_hours": {
+        "0": [
+          "06:00",
+          "21:00"
+        ],
+        "1": [
+          "06:00",
+          "21:00"
+        ],
+        "2": [
+          "06:00",
+          "21:00"
+        ],
+        "3": [
+          "06:00",
+          "21:00"
+        ],
+        "4": [
+          "06:00",
+          "21:00"
+        ],
+        "5": [
+          "06:00",
+          "21:00"
+        ],
+        "6": [
+          "06:00",
+          "21:00"
+        ]
+      },
+      "booked_windows": [],
+      "remote_offered": true,
+      "label": "Personal trainer"
+    },
+    "res-coach": {
+      "id": "res-coach",
+      "type": "human",
+      "tier": "moderate",
+      "capacity": 1,
+      "operating_hours": {
+        "0": [
+          "06:00",
+          "21:00"
+        ],
+        "1": [
+          "06:00",
+          "21:00"
+        ],
+        "2": [
+          "06:00",
+          "21:00"
+        ],
+        "3": [
+          "06:00",
+          "21:00"
+        ],
+        "4": [
+          "06:00",
+          "21:00"
+        ],
+        "5": [
+          "06:00",
+          "21:00"
+        ],
+        "6": [
+          "06:00",
+          "21:00"
+        ]
+      },
+      "booked_windows": [],
+      "remote_offered": true,
+      "label": "Performance coach"
+    },
+    "res-physio": {
+      "id": "res-physio",
+      "type": "human",
+      "tier": "moderate",
+      "capacity": 1,
+      "operating_hours": {
+        "0": [
+          "06:00",
+          "22:00"
+        ],
+        "1": [
+          "06:00",
+          "22:00"
+        ],
+        "2": [
+          "06:00",
+          "22:00"
+        ],
+        "3": [
+          "06:00",
+          "22:00"
+        ],
+        "4": [
+          "06:00",
+          "22:00"
+        ],
+        "5": [
+          "06:00",
+          "22:00"
+        ],
+        "6": [
+          "06:00",
+          "22:00"
+        ]
+      },
+      "booked_windows": [],
+      "remote_offered": true,
+      "label": "Physiotherapist"
+    },
+    "res-dietitian": {
+      "id": "res-dietitian",
+      "type": "human",
+      "tier": "moderate",
+      "capacity": 1,
+      "operating_hours": {
+        "0": [
+          "06:00",
+          "21:00"
+        ],
+        "1": [
+          "06:00",
+          "21:00"
+        ],
+        "2": [
+          "06:00",
+          "21:00"
+        ],
+        "3": [
+          "06:00",
+          "21:00"
+        ],
+        "4": [
+          "06:00",
+          "21:00"
+        ],
+        "5": [
+          "06:00",
+          "21:00"
+        ],
+        "6": [
+          "06:00",
+          "21:00"
+        ]
+      },
+      "booked_windows": [],
+      "remote_offered": true,
+      "label": "Dietitian"
+    },
+    "res-psychologist": {
+      "id": "res-psychologist",
+      "type": "human",
+      "tier": "moderate",
+      "capacity": 1,
+      "operating_hours": {
+        "0": [
+          "06:00",
+          "21:00"
+        ],
+        "1": [
+          "06:00",
+          "21:00"
+        ],
+        "2": [
+          "06:00",
+          "21:00"
+        ],
+        "3": [
+          "06:00",
+          "21:00"
+        ],
+        "4": [
+          "06:00",
+          "21:00"
+        ],
+        "5": [
+          "06:00",
+          "21:00"
+        ],
+        "6": [
+          "06:00",
+          "21:00"
+        ]
+      },
+      "booked_windows": [],
+      "remote_offered": true,
+      "label": "Psychologist"
+    },
+    "res-physician": {
+      "id": "res-physician",
+      "type": "human",
+      "tier": "scarce",
+      "capacity": 1,
+      "operating_hours": {
+        "0": [
+          "09:00",
+          "17:00"
+        ],
+        "2": [
+          "09:00",
+          "17:00"
+        ],
+        "4": [
+          "09:00",
+          "13:00"
+        ]
+      },
+      "booked_windows": [],
+      "remote_offered": true,
+      "label": "Physician"
+    },
+    "res-sportsmd": {
+      "id": "res-sportsmd",
+      "type": "human",
+      "tier": "scarce",
+      "capacity": 1,
+      "operating_hours": {
+        "1": [
+          "09:00",
+          "16:00"
+        ]
+      },
+      "booked_windows": [],
+      "remote_offered": true,
+      "label": "Sports-medicine physician"
+    },
+    "res-technician": {
+      "id": "res-technician",
+      "type": "human",
+      "tier": "broad",
+      "capacity": 3,
+      "operating_hours": {
+        "0": [
+          "06:00",
+          "22:00"
+        ],
+        "1": [
+          "06:00",
+          "22:00"
+        ],
+        "2": [
+          "06:00",
+          "22:00"
+        ],
+        "3": [
+          "06:00",
+          "22:00"
+        ],
+        "4": [
+          "06:00",
+          "22:00"
+        ],
+        "5": [
+          "06:00",
+          "22:00"
+        ],
+        "6": [
+          "06:00",
+          "22:00"
+        ]
+      },
+      "booked_windows": [],
+      "remote_offered": true,
+      "label": "Recovery technician"
+    },
+    "res-labtech": {
+      "id": "res-labtech",
+      "type": "human",
+      "tier": "scarce",
+      "capacity": 1,
+      "operating_hours": {
+        "0": [
+          "06:00",
+          "20:00"
+        ],
+        "1": [
+          "06:00",
+          "20:00"
+        ],
+        "2": [
+          "06:00",
+          "20:00"
+        ],
+        "3": [
+          "06:00",
+          "20:00"
+        ],
+        "4": [
+          "06:00",
+          "20:00"
+        ],
+        "5": [
+          "06:00",
+          "20:00"
+        ],
+        "6": [
+          "06:00",
+          "20:00"
+        ]
+      },
+      "booked_windows": [],
+      "remote_offered": true,
+      "label": "Lab technician"
+    },
+    "res-home": {
+      "id": "res-home",
+      "type": "location",
+      "tier": "abundant",
+      "capacity": 99,
+      "operating_hours": {
+        "0": [
+          "05:30",
+          "22:30"
+        ],
+        "1": [
+          "05:30",
+          "22:30"
+        ],
+        "2": [
+          "05:30",
+          "22:30"
+        ],
+        "3": [
+          "05:30",
+          "22:30"
+        ],
+        "4": [
+          "05:30",
+          "22:30"
+        ],
+        "5": [
+          "05:30",
+          "22:30"
+        ],
+        "6": [
+          "05:30",
+          "22:30"
+        ]
+      },
+      "booked_windows": [],
+      "remote_offered": false,
+      "label": "Home"
+    },
+    "res-gym": {
+      "id": "res-gym",
+      "type": "location",
+      "tier": "broad",
+      "capacity": 3,
+      "operating_hours": {
+        "0": [
+          "06:00",
+          "21:00"
+        ],
+        "1": [
+          "06:00",
+          "21:00"
+        ],
+        "2": [
+          "06:00",
+          "21:00"
+        ],
+        "3": [
+          "06:00",
+          "21:00"
+        ],
+        "4": [
+          "06:00",
+          "21:00"
+        ],
+        "5": [
+          "06:00",
+          "21:00"
+        ],
+        "6": [
+          "06:00",
+          "21:00"
+        ]
+      },
+      "booked_windows": [],
+      "remote_offered": false,
+      "label": "Gym"
+    },
+    "res-clinic": {
+      "id": "res-clinic",
+      "type": "location",
+      "tier": "broad",
+      "capacity": 20,
+      "operating_hours": {
+        "0": [
+          "06:00",
+          "22:00"
+        ],
+        "1": [
+          "06:00",
+          "22:00"
+        ],
+        "2": [
+          "06:00",
+          "22:00"
+        ],
+        "3": [
+          "06:00",
+          "22:00"
+        ],
+        "4": [
+          "06:00",
+          "22:00"
+        ],
+        "5": [
+          "06:00",
+          "22:00"
+        ],
+        "6": [
+          "06:00",
+          "22:00"
+        ]
+      },
+      "booked_windows": [],
+      "remote_offered": false,
+      "label": "Clinic"
+    },
+    "res-sauna": {
+      "id": "res-sauna",
+      "type": "location",
+      "tier": "broad",
+      "capacity": 2,
+      "operating_hours": {
+        "0": [
+          "06:00",
+          "22:00"
+        ],
+        "1": [
+          "06:00",
+          "22:00"
+        ],
+        "2": [
+          "06:00",
+          "22:00"
+        ],
+        "3": [
+          "06:00",
+          "22:00"
+        ],
+        "4": [
+          "06:00",
+          "22:00"
+        ],
+        "5": [
+          "06:00",
+          "22:00"
+        ],
+        "6": [
+          "06:00",
+          "22:00"
+        ]
+      },
+      "booked_windows": [],
+      "remote_offered": false,
+      "label": "Sauna suite"
+    },
+    "res-cryo": {
+      "id": "res-cryo",
+      "type": "location",
+      "tier": "single_unit",
+      "capacity": 1,
+      "operating_hours": {
+        "0": [
+          "06:00",
+          "22:00"
+        ],
+        "1": [
+          "06:00",
+          "22:00"
+        ],
+        "2": [
+          "06:00",
+          "22:00"
+        ],
+        "3": [
+          "06:00",
+          "22:00"
+        ],
+        "4": [
+          "06:00",
+          "22:00"
+        ],
+        "5": [
+          "06:00",
+          "22:00"
+        ],
+        "6": [
+          "06:00",
+          "22:00"
+        ]
+      },
+      "booked_windows": [],
+      "remote_offered": false,
+      "label": "Cryo chamber"
+    },
+    "res-hbot": {
+      "id": "res-hbot",
+      "type": "location",
+      "tier": "single_unit",
+      "capacity": 1,
+      "operating_hours": {
+        "0": [
+          "06:00",
+          "20:00"
+        ],
+        "1": [
+          "06:00",
+          "20:00"
+        ],
+        "2": [
+          "06:00",
+          "20:00"
+        ],
+        "3": [
+          "06:00",
+          "20:00"
+        ],
+        "4": [
+          "06:00",
+          "20:00"
+        ],
+        "5": [
+          "06:00",
+          "20:00"
+        ],
+        "6": [
+          "06:00",
+          "20:00"
+        ]
+      },
+      "booked_windows": [],
+      "remote_offered": false,
+      "label": "HBOT chamber"
+    },
+    "res-redlight": {
+      "id": "res-redlight",
+      "type": "location",
+      "tier": "broad",
+      "capacity": 1,
+      "operating_hours": {
+        "0": [
+          "06:00",
+          "22:00"
+        ],
+        "1": [
+          "06:00",
+          "22:00"
+        ],
+        "2": [
+          "06:00",
+          "22:00"
+        ],
+        "3": [
+          "06:00",
+          "22:00"
+        ],
+        "4": [
+          "06:00",
+          "22:00"
+        ],
+        "5": [
+          "06:00",
+          "22:00"
+        ],
+        "6": [
+          "06:00",
+          "22:00"
+        ]
+      },
+      "booked_windows": [],
+      "remote_offered": false,
+      "label": "Red-light room"
+    },
+    "res-dexa": {
+      "id": "res-dexa",
+      "type": "location",
+      "tier": "single_unit",
+      "capacity": 1,
+      "operating_hours": {
+        "0": [
+          "06:00",
+          "20:00"
+        ],
+        "1": [
+          "06:00",
+          "20:00"
+        ],
+        "2": [
+          "06:00",
+          "20:00"
+        ],
+        "3": [
+          "06:00",
+          "20:00"
+        ],
+        "4": [
+          "06:00",
+          "20:00"
+        ],
+        "5": [
+          "06:00",
+          "20:00"
+        ],
+        "6": [
+          "06:00",
+          "20:00"
+        ]
+      },
+      "booked_windows": [],
+      "remote_offered": false,
+      "label": "DEXA suite"
+    },
+    "res-vo2lab": {
+      "id": "res-vo2lab",
+      "type": "location",
+      "tier": "single_unit",
+      "capacity": 1,
+      "operating_hours": {
+        "0": [
+          "06:00",
+          "20:00"
+        ],
+        "1": [
+          "06:00",
+          "20:00"
+        ],
+        "2": [
+          "06:00",
+          "20:00"
+        ],
+        "3": [
+          "06:00",
+          "20:00"
+        ],
+        "4": [
+          "06:00",
+          "20:00"
+        ],
+        "5": [
+          "06:00",
+          "20:00"
+        ],
+        "6": [
+          "06:00",
+          "20:00"
+        ]
+      },
+      "booked_windows": [],
+      "remote_offered": false,
+      "label": "VO₂ lab"
+    },
+    "res-bloodlab": {
+      "id": "res-bloodlab",
+      "type": "location",
+      "tier": "single_unit",
+      "capacity": 1,
+      "operating_hours": {
+        "0": [
+          "06:00",
+          "20:00"
+        ],
+        "1": [
+          "06:00",
+          "20:00"
+        ],
+        "2": [
+          "06:00",
+          "20:00"
+        ],
+        "3": [
+          "06:00",
+          "20:00"
+        ],
+        "4": [
+          "06:00",
+          "20:00"
+        ],
+        "5": [
+          "06:00",
+          "20:00"
+        ],
+        "6": [
+          "06:00",
+          "20:00"
+        ]
+      },
+      "booked_windows": [],
+      "remote_offered": false,
+      "label": "Blood lab"
+    },
+    "res-outdoors": {
+      "id": "res-outdoors",
+      "type": "location",
+      "tier": "abundant",
+      "capacity": 99,
+      "operating_hours": {
+        "0": [
+          "06:00",
+          "21:00"
+        ],
+        "1": [
+          "06:00",
+          "21:00"
+        ],
+        "2": [
+          "06:00",
+          "21:00"
+        ],
+        "3": [
+          "06:00",
+          "21:00"
+        ],
+        "4": [
+          "06:00",
+          "21:00"
+        ],
+        "5": [
+          "06:00",
+          "21:00"
+        ],
+        "6": [
+          "06:00",
+          "21:00"
+        ]
+      },
+      "booked_windows": [],
+      "remote_offered": false,
+      "label": "Outdoors"
+    },
+    "res-pool": {
+      "id": "res-pool",
+      "type": "location",
+      "tier": "broad",
+      "capacity": 4,
+      "operating_hours": {
+        "0": [
+          "06:00",
+          "22:00"
+        ],
+        "1": [
+          "06:00",
+          "22:00"
+        ],
+        "2": [
+          "06:00",
+          "22:00"
+        ],
+        "3": [
+          "06:00",
+          "22:00"
+        ],
+        "4": [
+          "06:00",
+          "22:00"
+        ],
+        "5": [
+          "06:00",
+          "22:00"
+        ],
+        "6": [
+          "06:00",
+          "22:00"
+        ]
+      },
+      "booked_windows": [],
+      "remote_offered": false,
+      "label": "Pool"
+    },
+    "res-track": {
+      "id": "res-track",
+      "type": "location",
+      "tier": "abundant",
+      "capacity": 20,
+      "operating_hours": {
+        "0": [
+          "06:00",
+          "21:00"
+        ],
+        "1": [
+          "06:00",
+          "21:00"
+        ],
+        "2": [
+          "06:00",
+          "21:00"
+        ],
+        "3": [
+          "06:00",
+          "21:00"
+        ],
+        "4": [
+          "06:00",
+          "21:00"
+        ],
+        "5": [
+          "06:00",
+          "21:00"
+        ],
+        "6": [
+          "06:00",
+          "21:00"
+        ]
+      },
+      "booked_windows": [],
+      "remote_offered": false,
+      "label": "Track"
+    }
+  },
+  "travel": [
+    {
+      "start": "2026-06-15",
+      "end": "2026-06-19",
+      "destination": "New York",
+      "timezone": "America/New_York"
+    },
+    {
+      "start": "2026-07-20",
+      "end": "2026-07-24",
+      "destination": "London",
+      "timezone": "Europe/London"
+    }
+  ],
+  "commitments": {
+    "sleep": [
+      "22:30",
+      "06:30"
+    ],
+    "work_blocks": [
+      [
+        0,
+        "09:00",
+        "18:00"
+      ],
+      [
+        1,
+        "09:00",
+        "18:00"
+      ],
+      [
+        2,
+        "09:00",
+        "18:00"
+      ],
+      [
+        3,
+        "09:00",
+        "18:00"
+      ],
+      [
+        4,
+        "09:00",
+        "18:00"
+      ]
+    ],
+    "meals": [
+      "08:00",
+      "13:00",
+      "19:00"
+    ]
+  }
+}
