@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "outputDirectory": "web/out",
+  "cleanUrls": true,
+  "framework": null,
+  "buildCommand": "PYTHONPATH=src python3 -m elyx_allocator.generate_data && PYTHONPATH=src python3 -c \"from elyx_allocator.pipeline import build_site; build_site('web/out')\""
+}
