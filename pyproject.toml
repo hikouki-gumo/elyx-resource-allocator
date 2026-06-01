@@ -1,0 +1,14 @@
+[project]
+name = "elyx-resource-allocator"
+version = "0.1.0"
+description = "Elyx Resource Allocator — turns a HealthSpan-AI action plan + resource availability into a personalized, conflict-resolved 90-day plan."
+requires-python = ">=3.10"
+dependencies = ["jinja2", "icalendar"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = "-q"
+markers = [
+    "e2e: browser end-to-end tests (Playwright)",
+]
