@@ -47,7 +47,7 @@ It answers the two questions a reviewer asks:
 **Outcome:** 108-activity catalog · deterministic greedy scheduler · 30/30 tests · interactive dashboard + `.ics`.
 
 **Who caught the bugs** (full table: `docs/scheduler-bugs.md`) — 11 scheduler items = **7 bugs + 4 refinements**;
-**9 / 11 surfaced by the member** reviewing the rendered plan, **2 by an AI audit** (load-cap saturation, a
+**9 / 11 surfaced by the author** reviewing the rendered plan, **2 by an AI audit** (load-cap saturation, a
 silent drop). The member drove correctness/realism; the AI's distinct value was the systematic, whole-plan findings.
 
 **How this document was generated:** the three prompts at the very end.
@@ -1064,9 +1064,9 @@ Many skip-adjustments just display "add a light substitute the next day" — wha
 ## 6. Review (deterministic rationale + Codex)
 
 > **Attribution:** only the **details/prep** finding (#69–70) was the external **Codex** review. The
-> **scheduler bugs** (#71 → `docs/scheduler-bugs.md`) were mostly **member-found** by inspecting the
+> **scheduler bugs** (#71 → `docs/scheduler-bugs.md`) were mostly **author-found** by inspecting the
 > rendered plan, with two systematic ones found by an **AI audit** — see the **Found by** column in
-> `docs/scheduler-bugs.md` (9/11 member, 2 AI). Don't read this whole section as "Codex found it."
+> `docs/scheduler-bugs.md` (9/11 author, 2 AI). Don't read this whole section as "Codex found it."
 
 **63.**
 
@@ -2588,8 +2588,8 @@ transcript with three prompts:
 **2. Classify, attribute & trace the scheduler items**
 
 > In `docs/scheduler-bugs.md`, add three columns to every item: 
-> - Type: Bug (a defect against the spec) vs Refinement (a new rule the member added later to raise realism)
-> - Found by: AI vs Member (Member is me), use "Member → AI" when I found the symptom and the agent found the root cause
+> - Type: Bug (a defect against the spec) vs Refinement (a new rule the author added later to raise realism)
+> - Found by: AI vs Author (Author is me), use "Author → AI" when I found the symptom and the agent found the root cause
 > - Prompt: the PROMPTS entry that correspond to each item
 
 **3. Make it reviewer-readable**
